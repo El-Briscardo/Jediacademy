@@ -1,0 +1,141 @@
+*{
+  margin:0;
+  font-family:sans-serif;
+}
+
+.bigImg{
+  background-image:url("https://images.pexels.com/photos/256150/pexels-photo-256150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+background-size:cover;
+height:500px;
+}
+
+.btnPostuler a{
+  border:1px solid #ff6d20;
+  border-radius:5px;
+  background-color:#ff6d20;
+  width:150px;
+  line-height:50px;
+  margin-top:20px;
+  text-align:center;
+  text-decoration:none;
+  display:block;
+  vertical-align:middle;
+  color:white;
+  text-decoration:none; 
+}
+
+.btnPostuler a:hover{
+  background-color:#D55E20;
+}
+
+
+.bigImg-content{
+  margin-left:60px;
+}
+
+.bigImg-content h1,h3{
+  color:white;
+}
+.bigImg-content h1{
+  font-size:50px;
+}
+
+
+.bigImg{
+  display:flex;
+  align-items:center;
+}
+
+.middle{
+  display:flex;
+  flex-direction:row;
+}
+
+.cardCtn{
+  display:flex;
+  flex-wrap:wrap;
+  margin-top:20px;
+  margin-bottom:40px;
+  justify-content:space-evenly;
+  width: 100%;
+}
+
+.cardCtn p{
+  margin:0 10px;
+  color:blue;
+  margin-bottom:10px;
+}
+.card1, .card2, .card3{
+  background-color:#D8DFF7;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px 0px;
+  width: 250px;
+  margin-top:20px;
+}
+
+.cardImg{
+  margin-top:15px;
+  text-align:center;
+}
+
+.cardImg h4{
+  text-align:center;
+  margin-top:10px;
+  color:#5498ff;
+  margin-bottom:15px;
+}
+
+.cardImg p{
+  margin-bottom:30px;
+  text-align:center;
+  color:#5498ff;
+}
+
+.footer{
+  display:flex;
+  flex-direction:row;
+  background-color:#5498ff;
+  justify-content:space-evenly;
+  flex-wrap:wrap;
+}
+
+.foot1{
+ 
+   margin-bottom:20px;
+}
+
+.flex-foot{
+ display:flex;
+ flex-wrap:wrap;
+ margin-bottom:40px;
+}
+
+.foot234{
+
+  margin-left:80px;
+}
+
+.foot1 h2{
+  margin-top:40px;
+  display:flex;
+  color:white;
+  justify-content:center;
+  align-items:center;
+}
+
+.foot234 h2,p{
+  color:white;
+}
+
+.foot234 h2{
+  margin-top:40px;
+}
+
+.text p{
+  margin-top:20px;
+  line-height:0.1px;
+  text-align:left;
+}
+
+.flex-foot p:hover{
+  cursor:pointer;
+}
